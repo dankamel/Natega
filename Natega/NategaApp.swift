@@ -11,7 +11,7 @@ import SwiftUI
 struct NategaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCompositionRoot.start
         }
     }
 }

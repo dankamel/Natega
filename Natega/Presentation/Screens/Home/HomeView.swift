@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  Natega
 //
 //  Created by Nikola Veljanovski on 17.12.22.
@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
+    @ObservedObject var viewModel: HomeViewModel
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,11 +18,6 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .onAppear(perform: viewModel.loadData)
     }
 }
