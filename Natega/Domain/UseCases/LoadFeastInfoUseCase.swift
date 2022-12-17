@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol LoadFeastInfoUseCaseType {
-    func execute() -> AnyPublisher<[String: FeastModel], Error>
+    func execute() -> AnyPublisher<FeastModel, Error>
 }
 
 class LoadFeastInfoUseCase: LoadFeastInfoUseCaseType {
@@ -20,7 +20,7 @@ class LoadFeastInfoUseCase: LoadFeastInfoUseCaseType {
     }
     
     // execute request
-    func execute() -> AnyPublisher<[String : FeastModel], Error> {
+    func execute() -> AnyPublisher<FeastModel, Error> {
         self.repository.getFeastInfo()
     }
 }

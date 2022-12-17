@@ -14,13 +14,11 @@ struct FeastModel: Codable {
     let titles: [String]
     let feastLevel: Int
     let feastLevelDescription: String
-    let feasts: String?
     let fastLevel: Int
     let fastLevelDesc: String
     let fastException: Int
     let fastExceptionDesc: String
     let saints: [String]
-    let serviceNotes: String?
     let readings: [Reading]
 
     enum CodingKeys: String, CodingKey {
@@ -29,13 +27,11 @@ struct FeastModel: Codable {
         case year, month, day, weekday, tone, titles
         case feastLevel = "feast_level"
         case feastLevelDescription = "feast_level_description"
-        case feasts
         case fastLevel = "fast_level"
         case fastLevelDesc = "fast_level_desc"
         case fastException = "fast_exception"
         case fastExceptionDesc = "fast_exception_desc"
         case saints
-        case serviceNotes = "service_notes"
         case readings
     }
 }

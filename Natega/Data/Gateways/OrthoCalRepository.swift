@@ -9,13 +9,13 @@ import Foundation
 import Combine
 
 protocol OrthoCalRepositoryType { // a.k.a. gateway
-    func getFeastInfo() -> AnyPublisher<[String: FeastModel], Error>
+    func getFeastInfo() -> AnyPublisher<FeastModel, Error>
 }
 
 struct OrthoCalRepository: OrthoCalRepositoryType {
     let apiClient: OrthoCalAPIType
     
-    public func getFeastInfo() -> AnyPublisher<[String: FeastModel], Error> {
+    public func getFeastInfo() -> AnyPublisher<FeastModel, Error> {
         return apiClient.getFeastInfo()
     }
 }
