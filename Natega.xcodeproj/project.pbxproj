@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4783F3D02955EBCC007708F6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783F3CF2955EBCC007708F6 /* Home.swift */; };
+		4783F3D22955ECDB007708F6 /* DefaultBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783F3D12955ECDB007708F6 /* DefaultBackground.swift */; };
 		4C4A9AC0294E54CC00C0B279 /* NategaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9ABF294E54CC00C0B279 /* NategaApp.swift */; };
 		4C4A9AC2294E54CC00C0B279 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC1294E54CC00C0B279 /* HomeView.swift */; };
 		4C4A9AC4294E54CD00C0B279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC3294E54CD00C0B279 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4783F3CF2955EBCC007708F6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4783F3D12955ECDB007708F6 /* DefaultBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBackground.swift; sourceTree = "<group>"; };
 		4C4A9ABC294E54CC00C0B279 /* Natega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Natega.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4A9ABF294E54CC00C0B279 /* NategaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NategaApp.swift; sourceTree = "<group>"; };
 		4C4A9AC1294E54CC00C0B279 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 			children = (
 				4C4A9ADC294E6D5B00C0B279 /* Assembler.swift */,
 				4C4A9AE5294E722600C0B279 /* AppCompositionRoot.swift */,
+				4783F3CF2955EBCC007708F6 /* Home.swift */,
+				4783F3D12955ECDB007708F6 /* DefaultBackground.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -246,9 +252,11 @@
 				4C4A9AC2294E54CC00C0B279 /* HomeView.swift in Sources */,
 				4C4A9AE4294E6F1B00C0B279 /* HomeViewModel.swift in Sources */,
 				4C4A9AD1294E5E5F00C0B279 /* OrthoCalAPI.swift in Sources */,
+				4783F3D02955EBCC007708F6 /* Home.swift in Sources */,
 				4C4A9ADD294E6D5B00C0B279 /* Assembler.swift in Sources */,
 				4C4A9AE6294E722600C0B279 /* AppCompositionRoot.swift in Sources */,
 				4C4A9AC0294E54CC00C0B279 /* NategaApp.swift in Sources */,
+				4783F3D22955ECDB007708F6 /* DefaultBackground.swift in Sources */,
 				4C4A9AD6294E631C00C0B279 /* FeastModel.swift in Sources */,
 				4C4A9AE2294E6DCB00C0B279 /* HomeAssembler.swift in Sources */,
 				4C4A9AD8294E660700C0B279 /* OrthoCalRepository.swift in Sources */,
