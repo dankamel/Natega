@@ -261,7 +261,7 @@ struct Home: View {
                                 
                             }
                             // Below is the padding to allow shadow to be free rather than squashed... although the shadow I've put is super light, you basically can't see it... probably should make the shadow darker
-                            .frame(height: 200)
+                            .frame(height: 100)
                             .padding(.top, -30)
                         }
 
