@@ -70,11 +70,12 @@ struct Home: View {
                     .padding(.top, -20)
                     
                     
-                    VStack (spacing: 5) {
+                    VStack (alignment: .leading, spacing: 5) {
                         
                         // MARK: Commemorations
                         Text("Commemorations")
                             .font(.system(size: 15, weight: .semibold, design: .rounded))
+                            .padding(.bottom, 10)
                         
                         HStack(spacing: 6) {
                             
@@ -108,9 +109,10 @@ struct Home: View {
                         Text("Readings")
                             .font(.system(size: 15, weight: .semibold, design: .rounded))
                             .padding(.top, 20)
+                            .padding(.bottom, 10)
 
                         
-                        VStack(spacing: 13){
+                        VStack(spacing: 13) {
                             
                         HStack (spacing: 13) {
                             
@@ -204,6 +206,7 @@ struct Home: View {
                         Text("Upcoming")
                             .font(.system(size: 15, weight: .semibold, design: .rounded))
                             .padding(.top, 20)
+                            .padding(.bottom, 10)
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 7) {
@@ -268,6 +271,7 @@ struct Home: View {
                         
                     }
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                    .padding(.horizontal, 25)
                     
                     
                 }
