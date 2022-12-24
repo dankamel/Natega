@@ -1,5 +1,5 @@
 # Natega
-An iOS app with a widget that updates daily to display the icon of the Coptic Saint we commemorate each day. "Natega" is an Arabic words meaning "calendar."
+An iOS app with a widget that updates daily to display the icon of the Coptic Saint we commemorate each day. "Natega" is an Arabic word meaning "calendar."
 
 خلي القديسين علي الهوم سكرين
 
