@@ -17,15 +17,18 @@ final class HomeViewModel: ObservableObject {
         detailColor,
         secondaryColor: UIColor?
     
-    // Output
+    // Published properties
     @Published var feastResult: FeastModel?
-    @Published var readings: Reading?
+    @Published var readings: [Reading] = []
+    @Published var imageIndex = 0
+    @Published var images = ["church", "stmary"]
             
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Init
     init(feastInfoCase: LoadFeastInfoUseCaseType) {
         self.feastInfoCase = feastInfoCase
+        createReadings()
     }
     
     func loadData() {
@@ -49,5 +52,19 @@ final class HomeViewModel: ObservableObject {
         let month = formatter.string(from: date)
         formatter.dateStyle = .long
         return "\(day) " + "\(month)"
+    }
+    
+    private func createReadings() {
+        let range = 1...6
+        for _ in range {
+            let reading = Reading(id: Int.random(in: 1...99),
+                                  title: "Gal 5:16-6:2",
+                                  introduction: "introduction",
+                                  conclusion: "conclusion",
+                                  passages: [],
+                                  html: "html")
+            
+            readings.append(reading)
+        }
     }
 }

@@ -44,7 +44,7 @@ struct SubSection: Codable {
 }
 
 // MARK: - Reading
-struct Reading: Codable {
+struct Reading: Codable, Identifiable {
     let id: Int
     let title, introduction, conclusion: String?
     let passages: [Passage]?
