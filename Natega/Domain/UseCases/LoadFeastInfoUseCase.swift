@@ -13,9 +13,9 @@ protocol LoadFeastInfoUseCaseType {
 }
 
 class LoadFeastInfoUseCase: LoadFeastInfoUseCaseType {
-    let repository: OrthoCalRepositoryType
+    let repository: KatamerosRepositoryType
     
-    init(repository: OrthoCalRepositoryType) {
+    init(repository: KatamerosRepositoryType) {
         self.repository = repository
     }
     

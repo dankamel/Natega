@@ -13,15 +13,53 @@
 		4C4A9AC2294E54CC00C0B279 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC1294E54CC00C0B279 /* HomeView.swift */; };
 		4C4A9AC4294E54CD00C0B279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC3294E54CD00C0B279 /* Assets.xcassets */; };
 		4C4A9AC7294E54CD00C0B279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC6294E54CD00C0B279 /* Preview Assets.xcassets */; };
-		4C4A9AD1294E5E5F00C0B279 /* OrthoCalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AD0294E5E5F00C0B279 /* OrthoCalAPI.swift */; };
+		4C4A9AD1294E5E5F00C0B279 /* KatamerosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AD0294E5E5F00C0B279 /* KatamerosAPI.swift */; };
 		4C4A9AD6294E631C00C0B279 /* FeastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AD5294E631C00C0B279 /* FeastModel.swift */; };
-		4C4A9AD8294E660700C0B279 /* OrthoCalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AD7294E660700C0B279 /* OrthoCalRepository.swift */; };
+		4C4A9AD8294E660700C0B279 /* KatamerosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AD7294E660700C0B279 /* KatamerosRepository.swift */; };
 		4C4A9ADA294E66BB00C0B279 /* LoadFeastInfoUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AD9294E66BB00C0B279 /* LoadFeastInfoUseCase.swift */; };
 		4C4A9ADD294E6D5B00C0B279 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9ADC294E6D5B00C0B279 /* Assembler.swift */; };
 		4C4A9AE2294E6DCB00C0B279 /* HomeAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AE1294E6DCB00C0B279 /* HomeAssembler.swift */; };
 		4C4A9AE4294E6F1B00C0B279 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AE3294E6F1B00C0B279 /* HomeViewModel.swift */; };
 		4C4A9AE6294E722600C0B279 /* AppCompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AE5294E722600C0B279 /* AppCompositionRoot.swift */; };
+		4C4A9AEA2953818500C0B279 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AE92953818500C0B279 /* Date+Extensions.swift */; };
+		4C4A9AED29575C2C00C0B279 /* UIImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 4C4A9AEC29575C2C00C0B279 /* UIImageColors */; };
+		4C4DE889295A16EF00E3BF93 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DE888295A16EF00E3BF93 /* PagingView.swift */; };
+		4CCFA63F295A450200342776 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCFA622295A447300342776 /* WidgetKit.framework */; };
+		4CCFA640295A450200342776 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCFA624295A447300342776 /* SwiftUI.framework */; };
+		4CCFA643295A450200342776 /* NategaWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA642295A450200342776 /* NategaWidgetBundle.swift */; };
+		4CCFA645295A450200342776 /* NategaWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA644295A450200342776 /* NategaWidgetLiveActivity.swift */; };
+		4CCFA647295A450200342776 /* NategaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA646295A450200342776 /* NategaWidget.swift */; };
+		4CCFA64A295A450300342776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFA649295A450300342776 /* Assets.xcassets */; };
+		4CCFA64C295A450300342776 /* NategaWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA648295A450200342776 /* NategaWidget.intentdefinition */; };
+		4CCFA64D295A450300342776 /* NategaWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA648295A450200342776 /* NategaWidget.intentdefinition */; };
+		4CCFA650295A450300342776 /* NategaWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CCFA63E295A450200342776 /* NategaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CCFA654295A4A0900342776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC3294E54CD00C0B279 /* Assets.xcassets */; };
+		4CCFA656295CB34200342776 /* Colours+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA655295CB34200342776 /* Colours+Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCFA64E295A450300342776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4A9AB4294E54CC00C0B279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCFA63D295A450200342776;
+			remoteInfo = NategaWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CCFA636295A447400342776 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CCFA650295A450300342776 /* NategaWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4783F3CF2955EBCC007708F6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -31,15 +69,27 @@
 		4C4A9AC1294E54CC00C0B279 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4C4A9AC3294E54CD00C0B279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4A9AC6294E54CD00C0B279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C4A9AD0294E5E5F00C0B279 /* OrthoCalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthoCalAPI.swift; sourceTree = "<group>"; };
+		4C4A9AD0294E5E5F00C0B279 /* KatamerosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatamerosAPI.swift; sourceTree = "<group>"; };
 		4C4A9AD5294E631C00C0B279 /* FeastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeastModel.swift; sourceTree = "<group>"; };
-		4C4A9AD7294E660700C0B279 /* OrthoCalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthoCalRepository.swift; sourceTree = "<group>"; };
+		4C4A9AD7294E660700C0B279 /* KatamerosRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatamerosRepository.swift; sourceTree = "<group>"; };
 		4C4A9AD9294E66BB00C0B279 /* LoadFeastInfoUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeastInfoUseCase.swift; sourceTree = "<group>"; };
 		4C4A9ADC294E6D5B00C0B279 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
 		4C4A9AE1294E6DCB00C0B279 /* HomeAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembler.swift; sourceTree = "<group>"; };
 		4C4A9AE3294E6F1B00C0B279 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		4C4A9AE5294E722600C0B279 /* AppCompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCompositionRoot.swift; sourceTree = "<group>"; };
 		4C4A9AE7294E781F00C0B279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C4A9AE92953818500C0B279 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		4C4DE888295A16EF00E3BF93 /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		4CCFA622295A447300342776 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4CCFA624295A447300342776 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4CCFA63E295A450200342776 /* NategaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NategaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCFA642295A450200342776 /* NategaWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NategaWidgetBundle.swift; sourceTree = "<group>"; };
+		4CCFA644295A450200342776 /* NategaWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NategaWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		4CCFA646295A450200342776 /* NategaWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NategaWidget.swift; sourceTree = "<group>"; };
+		4CCFA648295A450200342776 /* NategaWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NategaWidget.intentdefinition; sourceTree = "<group>"; };
+		4CCFA649295A450300342776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCFA64B295A450300342776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCFA655295CB34200342776 /* Colours+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colours+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +97,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4A9AED29575C2C00C0B279 /* UIImageColors in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFA63B295A450200342776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFA640295A450200342776 /* SwiftUI.framework in Frameworks */,
+				4CCFA63F295A450200342776 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				4C4A9ABE294E54CC00C0B279 /* Natega */,
+				4CCFA641295A450200342776 /* NategaWidget */,
+				4CCFA621295A447300342776 /* Frameworks */,
 				4C4A9ABD294E54CC00C0B279 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				4C4A9ABC294E54CC00C0B279 /* Natega.app */,
+				4CCFA63E295A450200342776 /* NategaWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +135,7 @@
 		4C4A9ABE294E54CC00C0B279 /* Natega */ = {
 			isa = PBXGroup;
 			children = (
+				4C4A9AE82953817900C0B279 /* Utils */,
 				4C4A9AE7294E781F00C0B279 /* Info.plist */,
 				4C4A9ADE294E6D9700C0B279 /* Presentation */,
 				4C4A9ADB294E676000C0B279 /* Main */,
@@ -104,7 +168,7 @@
 		4C4A9ACE294E5DB100C0B279 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				4C4A9AD0294E5E5F00C0B279 /* OrthoCalAPI.swift */,
+				4C4A9AD0294E5E5F00C0B279 /* KatamerosAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -112,7 +176,7 @@
 		4C4A9ACF294E5DB900C0B279 /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
-				4C4A9AD7294E660700C0B279 /* OrthoCalRepository.swift */,
+				4C4A9AD7294E660700C0B279 /* KatamerosRepository.swift */,
 			);
 			path = Gateways;
 			sourceTree = "<group>";
@@ -179,6 +243,38 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		4C4A9AE82953817900C0B279 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A9AE92953818500C0B279 /* Date+Extensions.swift */,
+				4C4DE888295A16EF00E3BF93 /* PagingView.swift */,
+				4CCFA655295CB34200342776 /* Colours+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4CCFA621295A447300342776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFA622295A447300342776 /* WidgetKit.framework */,
+				4CCFA624295A447300342776 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CCFA641295A450200342776 /* NategaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFA642295A450200342776 /* NategaWidgetBundle.swift */,
+				4CCFA644295A450200342776 /* NategaWidgetLiveActivity.swift */,
+				4CCFA646295A450200342776 /* NategaWidget.swift */,
+				4CCFA648295A450200342776 /* NategaWidget.intentdefinition */,
+				4CCFA649295A450300342776 /* Assets.xcassets */,
+				4CCFA64B295A450300342776 /* Info.plist */,
+			);
+			path = NategaWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,15 +285,37 @@
 				4C4A9AB8294E54CC00C0B279 /* Sources */,
 				4C4A9AB9294E54CC00C0B279 /* Frameworks */,
 				4C4A9ABA294E54CC00C0B279 /* Resources */,
+				4CCFA636295A447400342776 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCFA64F295A450300342776 /* PBXTargetDependency */,
+			);
+			name = Natega;
+			packageProductDependencies = (
+				4C4A9AEC29575C2C00C0B279 /* UIImageColors */,
+			);
+			productName = Natega;
+			productReference = 4C4A9ABC294E54CC00C0B279 /* Natega.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCFA63D295A450200342776 /* NategaWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCFA651295A450300342776 /* Build configuration list for PBXNativeTarget "NategaWidgetExtension" */;
+			buildPhases = (
+				4CCFA63A295A450200342776 /* Sources */,
+				4CCFA63B295A450200342776 /* Frameworks */,
+				4CCFA63C295A450200342776 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Natega;
-			productName = Natega;
-			productReference = 4C4A9ABC294E54CC00C0B279 /* Natega.app */;
-			productType = "com.apple.product-type.application";
+			name = NategaWidgetExtension;
+			productName = NategaWidgetExtension;
+			productReference = 4CCFA63E295A450200342776 /* NategaWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,6 +330,9 @@
 					4C4A9ABB294E54CC00C0B279 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					4CCFA63D295A450200342776 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 4C4A9AB7294E54CC00C0B279 /* Build configuration list for PBXProject "Natega" */;
@@ -223,11 +344,15 @@
 				Base,
 			);
 			mainGroup = 4C4A9AB3294E54CC00C0B279;
+			packageReferences = (
+				4C4A9AEB29575C2C00C0B279 /* XCRemoteSwiftPackageReference "UIImageColors" */,
+			);
 			productRefGroup = 4C4A9ABD294E54CC00C0B279 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4C4A9ABB294E54CC00C0B279 /* Natega */,
+				4CCFA63D295A450200342776 /* NategaWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +367,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CCFA63C295A450200342776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFA654295A4A0900342776 /* Assets.xcassets in Resources */,
+				4CCFA64A295A450300342776 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,9 +383,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4DE889295A16EF00E3BF93 /* PagingView.swift in Sources */,
+				4CCFA656295CB34200342776 /* Colours+Extensions.swift in Sources */,
+				4CCFA64D295A450300342776 /* NategaWidget.intentdefinition in Sources */,
 				4C4A9AC2294E54CC00C0B279 /* HomeView.swift in Sources */,
-				4C4A9AE4294E6F1B00C0B279 /* HomeViewModel.swift in Sources */,
-				4C4A9AD1294E5E5F00C0B279 /* OrthoCalAPI.swift in Sources */,
+				4C4A9AEA2953818500C0B279 /* Date+Extensions.swift in Sources */,
+				4C4A9AE4294E6F1B00C0B279 /* HomeViewModel.swift in Sources */
 				4783F3D02955EBCC007708F6 /* Home.swift in Sources */,
 				4C4A9ADD294E6D5B00C0B279 /* Assembler.swift in Sources */,
 				4C4A9AE6294E722600C0B279 /* AppCompositionRoot.swift in Sources */,
@@ -259,12 +396,31 @@
 				4783F3D22955ECDB007708F6 /* DefaultBackground.swift in Sources */,
 				4C4A9AD6294E631C00C0B279 /* FeastModel.swift in Sources */,
 				4C4A9AE2294E6DCB00C0B279 /* HomeAssembler.swift in Sources */,
-				4C4A9AD8294E660700C0B279 /* OrthoCalRepository.swift in Sources */,
+				4C4A9AD8294E660700C0B279 /* KatamerosRepository.swift in Sources */,
 				4C4A9ADA294E66BB00C0B279 /* LoadFeastInfoUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CCFA63A295A450200342776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFA645295A450200342776 /* NategaWidgetLiveActivity.swift in Sources */,
+				4CCFA643295A450200342776 /* NategaWidgetBundle.swift in Sources */,
+				4CCFA64C295A450300342776 /* NategaWidget.intentdefinition in Sources */,
+				4CCFA647295A450200342776 /* NategaWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCFA64F295A450300342776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCFA63D295A450200342776 /* NategaWidgetExtension */;
+			targetProxy = 4CCFA64E295A450300342776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4C4A9AC8294E54CD00C0B279 /* Debug */ = {
@@ -384,6 +540,7 @@
 		4C4A9ACB294E54CD00C0B279 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +574,7 @@
 		4C4A9ACC294E54CD00C0B279 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +605,62 @@
 			};
 			name = Release;
 		};
+		4CCFA652295A450300342776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76YKNW8C9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NategaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NategaWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikola.Natega.NategaWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCFA653295A450300342776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76YKNW8C9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NategaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NategaWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikola.Natega.NategaWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,7 +682,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4CCFA651295A450300342776 /* Build configuration list for PBXNativeTarget "NategaWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCFA652295A450300342776 /* Debug */,
+				4CCFA653295A450300342776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C4A9AEB29575C2C00C0B279 /* XCRemoteSwiftPackageReference "UIImageColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jathu/UIImageColors";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C4A9AEC29575C2C00C0B279 /* UIImageColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C4A9AEB29575C2C00C0B279 /* XCRemoteSwiftPackageReference "UIImageColors" */;
+			productName = UIImageColors;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C4A9AB4294E54CC00C0B279 /* Project object */;
 }

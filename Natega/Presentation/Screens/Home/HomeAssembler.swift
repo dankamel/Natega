@@ -15,8 +15,8 @@ class HomeViewAssembler: HomeAssembler { }
 
 extension HomeViewAssembler {
     func resolve() -> HomeView {
-        let apiClient = OrthoCalAPI()
-        let repository = OrthoCalRepository(apiClient: apiClient)
+        let apiClient = KatamerosAPI()
+        let repository = KatamerosRepository(apiClient: apiClient)
         let feastCase = LoadFeastInfoUseCase(repository: repository)
         let viewModel = HomeViewModel(feastInfoCase: feastCase)
         return HomeView(viewModel: viewModel)
