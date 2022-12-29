@@ -35,6 +35,7 @@
 		4CCFA650295A450300342776 /* NategaWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CCFA63E295A450200342776 /* NategaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4CCFA654295A4A0900342776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC3294E54CD00C0B279 /* Assets.xcassets */; };
 		4CCFA656295CB34200342776 /* Colours+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFA655295CB34200342776 /* Colours+Extensions.swift */; };
+		4CCFA658295E054C00342776 /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFA657295E054C00342776 /* Colours.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		4CCFA649295A450300342776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CCFA64B295A450300342776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCFA655295CB34200342776 /* Colours+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colours+Extensions.swift"; sourceTree = "<group>"; };
+		4CCFA657295E054C00342776 /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				4C4A9ACD294E5DAA00C0B279 /* Data */,
 				4C4A9ABF294E54CC00C0B279 /* NategaApp.swift */,
 				4C4A9AC3294E54CD00C0B279 /* Assets.xcassets */,
+				4CCFA657295E054C00342776 /* Colours.xcassets */,
 				4C4A9AC5294E54CD00C0B279 /* Preview Content */,
 			);
 			path = Natega;
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C4A9AC7294E54CD00C0B279 /* Preview Assets.xcassets in Resources */,
+				4CCFA658295E054C00342776 /* Colours.xcassets in Resources */,
 				4C4A9AC4294E54CD00C0B279 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
