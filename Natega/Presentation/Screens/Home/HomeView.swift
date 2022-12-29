@@ -12,7 +12,10 @@ struct HomeView: View {
     
     var body: some View {
         contentView
-            .onAppear(perform: viewModel.loadData)
+            .onAppear {
+                viewModel.loadData()
+                setupAppearance()
+            }
     }
     
     private var contentView: some View {
@@ -77,7 +80,7 @@ struct HomeView: View {
                 .cornerRadius(15)
                 .padding(16)
         }
-        .tabViewStyle(.page(indexDisplayMode: .always))
+        .tabViewStyle(.page)
     }
     
     private var commemorations: some View {
@@ -254,5 +257,10 @@ struct HomeView: View {
             .frame(maxWidth: .infinity)
         }
         .padding(.horizontal, 16)
+    }
+    
+    func setupAppearance() {
+        UIPageControl.appearance().currentPageIndicatorTintColor = .black
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
     }
 }
